@@ -456,14 +456,38 @@ body {
 
 .portfolio-work :nth-child(3n) {
     margin-right: 0;
-} 
+}
 
 .portfolio-work :nth-last-child(-n + 3) {
     margin-bottom: 0;
     background-color: orange;
 }
 
+/* ВИДАЛИТИ проценти*/
 .portfolio-item {
+    width: calc((100% - 60px) / 3);
+    margin-right: 30px;
+    outline: 1px solid red
+
+    background-color: var(--simply-white);
+    border: 1px solid var(--ounline-portfolio-work);
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 20px    
+}
+
+/* ВИДАЛИТИ */
+
+/* .portfolio-work :nth-child(3n) {
+    margin-right: 0;
+} 
+
+.portfolio-work :nth-last-child(-n + 3) {
+    margin-bottom: 0;
+    background-color: orange;
+} */
+
+/* .portfolio-item {
     box-sizing: border-box;
     width: 370px;
     height: 404px;
@@ -472,7 +496,7 @@ body {
     margin-right: 30px;
     margin-bottom: 30px;
     padding-bottom: 20px;
-}
+} */
 
 .portfolio-title {
     margin-top: 20px;
