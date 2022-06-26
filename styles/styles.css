@@ -108,7 +108,7 @@ p {
 
 /* <!-- Section header --> */
 .header {
-    border: 1px solid var(--footer-work-border);
+    border-bottom: 1px solid var(--footer-work-border);
 }
 
 .header-flex {
@@ -352,14 +352,21 @@ p {
     color: var(--accent-color-font);
 }
 
-.footer-mail,
-.footer-tel {
+.footer-mail {
     display: inline-block;
     margin-bottom: 9px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);    
 }
+
+.footer-tel {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
 
 .footer-mail:hover,
 .footer-mail:focus {
@@ -434,12 +441,13 @@ p {
 
 .portfolio-name {
     padding: 20px 24px;
-    border: 1px solid var(--ounline-portfolio-work);
+    border-right: 1px solid var(--ounline-portfolio-work);
+    border-bottom: 1px solid var(--ounline-portfolio-work);
+    border-left: 1px solid var(--ounline-portfolio-work);
 }
 
 .portfolio-title {
-    margin-bottom: 4px;
-
+    /* margin-bottom: 4px; */
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -448,8 +456,7 @@ p {
 }
 
 .portfolio-title-item {
-    margin-top: 0;
-
+    margin-top: 4px;
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.03em;
