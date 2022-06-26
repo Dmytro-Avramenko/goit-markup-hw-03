@@ -366,8 +366,6 @@ p {
     color: rgba(255, 255, 255, 0.6);
 }
 
-
-
 .footer-mail:hover,
 .footer-mail:focus {
     color: var(--accent-color-font);
